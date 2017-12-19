@@ -1,8 +1,12 @@
 exports.run = function(input) {
   console.log("Exercise #1");
-  var input=[];
-  
-for (var i = 0; i < input.length; i++) {
-	return input[i];
-}
+  var total=0;
+
+	while (total<3) {
+		console.log(input[total]);
+		var newTableau = [];
+		newTableau = newTableau.push(input[total]);
+		total= total + 1;
+	}
+	return newTableau;
 };
