@@ -5,9 +5,9 @@ exports.run = function(input) {
   var somme=0;
   var total;
   string.forEach(element => {  
-    element=parseInt(element);
+  	element=parseInt(element);
 	for (var i = 0; i < input.length; i++) {
-    	somme += Number(input[element];
+    	somme += Number(input[element]);
     }
    console.log(input[element]);
   });
@@ -18,5 +18,5 @@ exports.run = function(input) {
 }
 
 var somme = Number(total);*/
-  return Number(somme);
+  return somme;
 };
